@@ -26,7 +26,7 @@ For crashlytics - Cralytics sdk is added and tested  crashing the application
 
 After receiving the curent location setstate is called and updated the ui 
 
-
+![awr tracking](https://github.com/sharathyadhav1/live_order_tracker_flutter/assets/8912909/ca8e8298-a3e5-4196-b00d-e167abfeef43)
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
@@ -34,3 +34,4 @@ After receiving the curent location setstate is called and updated the ui
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
