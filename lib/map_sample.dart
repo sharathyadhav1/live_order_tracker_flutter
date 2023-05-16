@@ -114,7 +114,7 @@ class MapSampleState extends State<MapSample> {
       },
     );
     BitmapDescriptor.fromAssetImage(
-            const ImageConfiguration(), 'assets/Badge.png')
+            const ImageConfiguration(), 'assets/car.png')
         .then(
       (value) {
         currentLicationIcon = value;
@@ -169,7 +169,7 @@ class MapSampleState extends State<MapSample> {
                         ),
                         Marker(
                           markerId: const MarkerId("destination"),
-                          icon: destinationIcon,
+
                           position: destination,
                         ),
                       },

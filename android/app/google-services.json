@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676210736492",
+    "project_id": "awrtracking",
+    "storage_bucket": "awrtracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676210736492:android:6bb561aab33c5808e38749",
+        "android_client_info": {
+          "package_name": "com.awr.google_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676210736492-1jssud23t6ofa1d1k9vf19qp0l48gjq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeOErOupE3vKoO7eFDmcstM8L-ALgmGyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676210736492-1jssud23t6ofa1d1k9vf19qp0l48gjq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
