@@ -1,9 +1,12 @@
 import 'dart:async';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:google_mao/constants.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+
 
 import 'components/rider_info.dart';
 
@@ -124,10 +127,14 @@ class MapSampleState extends State<MapSample> {
 
   @override
   void initState() {
+    // FirebaseCrashlytics.instance.crash();
+
     initialLocation();
     getPolyPoints();
     setSourceAndDestinationIcons();
+    FirebaseAnalytics.instance.logEvent(name: 'awr app start');
     super.initState();
+
   }
 
   @override
@@ -137,7 +144,7 @@ class MapSampleState extends State<MapSample> {
         backgroundColor: Colors.white,
         elevation: 0,
         title: const Text(
-          "Track order",
+          "Awr tracking Demo",
           style: TextStyle(color: Colors.black, fontSize: 16),
         ),
       ),
